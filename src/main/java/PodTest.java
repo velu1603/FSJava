@@ -6,7 +6,7 @@ public class PodTest {
         diff(100,44);
         multiple(12,34);
         concatanate2Strings("Java", " Practice");
-
+        System.out.println(addWithReturn(90,78));
     }
     /*
     * Sum method
@@ -38,6 +38,10 @@ public class PodTest {
     public static void concatanate2Strings(String a, String b){
         String c = a + b;
         System.out.println(c);
+    }
+
+    public static int addWithReturn(int a, int b){
+        return a + b;
     }
 
 }
