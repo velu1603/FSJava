@@ -5,6 +5,7 @@ public class PodTest {
         sum(10,20);
         diff(100,44);
         multiple(12,34);
+        concatanate2Strings("Java", " Practice");
 
     }
     /*
@@ -34,6 +35,9 @@ public class PodTest {
         System.out.println(c);
     }
 
-
+    public static void concatanate2Strings(String a, String b){
+        String c = a + b;
+        System.out.println(c);
+    }
 
 }
