@@ -7,6 +7,9 @@ public class PodTest {
         multiple(12,34);
         concatanate2Strings("Java", " Practice");
         System.out.println(addWithReturn(90,78));
+        PodTest p1 = new PodTest();
+        p1.addMethodWithoutStatic(4,9);
+
     }
     /*
     * Sum method
@@ -42,6 +45,11 @@ public class PodTest {
 
     public static int addWithReturn(int a, int b){
         return a + b;
+    }
+
+    public  void addMethodWithoutStatic(int a, int b){
+        int c = a + b;
+        System.out.println(c);
     }
 
 }
